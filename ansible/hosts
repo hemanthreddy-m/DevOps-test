@@ -1,2 +1,2 @@
 [all]
-127.0.0.1 ansible_ssh_user=ansibe ansible_ssh_private_key_file=/home/jenkins/.keys/access.pem
+13.126.224.0 ansible_ssh_user=ansibe ansible_ssh_private_key_file=/home/jenkins/.keys/access.pem
