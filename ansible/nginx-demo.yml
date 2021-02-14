@@ -13,11 +13,11 @@
       become: yes
   
     - name: Deploying  sample html file to Nginx & Copying files to www
-      copy: src=files/index.html dest=/usr/share/nginx/html/ mode=0644
+      copy: src=config/index.html dest=/usr/share/nginx/html/ mode=0644
       become: yes
   
     - name: Deploy changes to nginx.conf
-      copy: src=files/nginx.conf dest=/etc/nginx/ mode=0644
+      copy: src=config/nginx.conf dest=/etc/nginx/ mode=0644
       become: yes
   
     - name: Making sure the Nginx service is running
